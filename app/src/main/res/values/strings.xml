@@ -3,4 +3,7 @@
     <string name="home">Главная</string>
     <string name="download">Загрузки</string>
     <string name="more">Ещё</string>
+    <string name="desc_home">Список уведомлений</string>
+    <string name="movie_title">Название фильма</string>
+    <string name="default_imdb_rating">Рейтинг фильма</string>
 </resources>

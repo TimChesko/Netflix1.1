@@ -19,6 +19,7 @@
     </style>
 
     <style name="MyRecyclerView">
+        <item name="android:orientation">horizontal</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">#fff</item>

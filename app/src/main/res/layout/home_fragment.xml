@@ -2,12 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/MyLinearLayout">
 
-<!--    <androidx.appcompat.widget.Toolbar-->
-<!--        android:id="@+id/toolbar_home" style="@style/MyToolbar">-->
-<!--        <TextView-->
-<!--            android:text="@string/desc_home" style="@style/Toolbar_TextView"/>-->
-<!--    </androidx.appcompat.widget.Toolbar>-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_home" style="@style/MyToolbar">
+        <TextView
+            android:text="@string/desc_home" style="@style/Toolbar_TextView"/>
+    </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RVadapter_home" style="@style/MyRecyclerView"/>
+        android:id="@+id/recycleViewHome"
+        style="@style/MyRecyclerView"/>
+
+<!--RecyclerView - часть которая будет прокручиваться-->
 </LinearLayout>

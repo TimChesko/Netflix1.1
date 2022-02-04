@@ -6,10 +6,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Test view"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycleViewHome"
-        style="@style/MyRecyclerView"/>
-
 <!--RecyclerView - часть которая будет прокручиваться-->
 </LinearLayout>
